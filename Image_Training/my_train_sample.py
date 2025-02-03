@@ -12,6 +12,8 @@ def get_model_instance_segmentation(num_classes):
     model.roi_heads.box_predictor = FastRCNNPredictor(in_features, num_classes)
     return model
 
+
+
 if __name__ == '__main__':
     num_classes = 6
     num_epochs = 10

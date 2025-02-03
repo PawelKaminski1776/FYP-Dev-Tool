@@ -1,6 +1,5 @@
 import torch
-import torchvision
-from data_loader import data_loader
+from Image_Training import data_loader
 
 # select device (whether GPU or CPU)
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
