@@ -1,8 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import sys
 import os
-
 
 async def WebScraper(num_of_images, county):
         headers = {'User-Agent': 'PostmanRuntime/7.29.0'}

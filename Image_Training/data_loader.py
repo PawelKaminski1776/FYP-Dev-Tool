@@ -1,10 +1,9 @@
 import torch
 import torchvision
-import myOwnDataset
-from Prototype.myOwnDataset import CustomCocoDataset
+from CocoFile_Loader import CustomCocoDataset
 
-train_data_dir = "C:/Users/pawel/Documents/Houses"
-train_coco = "C:/Users/pawel/Documents/Houses/instances_default.json"
+train_data_dir = "../"
+train_coco = "../"
 
 # In my case, just added ToTensor
 def get_transform():
